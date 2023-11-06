@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_529039_communi_0_assigned_code</collection>
+        <condition table="x_529039_communi_0_assigned_code">email_address=TRUE<item endquery="false" field="email_address" goto="false" newquery="false" operator="=" or="false" value="TRUE"/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>send codes to users</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>mail.sent</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hi ${first_name}</p>
+<p>Thank you for attending the ServiceNow London Developer Meetup! We want to make sure you are able to redeem your surprise swag from the event. Please follow the steps below:</p>
+<ol style="list-style-position: inside;">
+<li>Visit the <a href="https://snusdev-events.promob2b.com/" target="_blank" rel="noopener">ServiceNow Community Store</a></li>
+<li>Select an item <em>(limit one per person, the code will not work if you have more than one item in your cart.)</em></li>
+<li>At checkout, enter your unique code:<strong> ${unique_code}</strong></li>
+</ol>
+<p>(Please note, if an item is out of stock or if you have more than one item in your cart, your code will not work.)</p>
+<p>Thank you again for attending the event, we hope to see you at the <a href="https://www.meetup.com/snd-london/" target="_blank" rel="noopener">next Meetup</a>!</p>
+<p>Best,</p>
+<p>The ServiceNow Developer Meetup Program</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Test Merch Email</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>email_address</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>ServiceNow London Developer Meetup - Swag Redemption</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-18 21:26:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd139fee2f113110e002d8ddf699b667</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Test Merch Email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+        <sys_update_name>sysevent_email_action_cd139fee2f113110e002d8ddf699b667</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 19:36:09</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="AES app template email - Standard">f749cd1dc3670110a9f5e548fa40ddd3</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

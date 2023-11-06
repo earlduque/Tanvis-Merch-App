@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="3c96df262f513110e002d8ddf699b6a8" label="Assigned Code" max_length="40" name="x_529039_communi_0_assigned_code" type="collection">
+        <element label="Email Address" max_length="200" name="email_address" type="string"/>
+        <element label="Email sent" max_length="40" name="email_sent" type="boolean"/>
+        <element label="First Name" max_length="200" name="first_name" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="Store" max_length="40" name="store" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dev Meetup" sequence="0" value="dev_meetup"/>
+                <element inactive_on_update="false" label="Brandido" sequence="1" value="brandido"/>
+                <element inactive_on_update="false" label="Hackathon" sequence="2" value="hackathon"/>
+                <element inactive_on_update="false" label="Community Merch" sequence="3" value="community_merch"/>
+                <element inactive_on_update="false" label="The Devvies" sequence="4" value="the_devvies"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Unique Code" max_length="200" name="unique_code" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

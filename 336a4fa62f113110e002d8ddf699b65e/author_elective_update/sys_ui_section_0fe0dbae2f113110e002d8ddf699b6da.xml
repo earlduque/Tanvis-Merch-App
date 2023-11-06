@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="x_529039_communi_0_emails" section_id="0fe0dbae2f113110e002d8ddf699b6da" sys_domain="global" table="x_529039_communi_0_emails" version="3" view="Add_Emails">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email_adress</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-18 21:13:15</sys_created_on>
+            <sys_id>98119fae2f113110e002d8ddf699b698</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_529039_communi_0_emails" display_value="x_529039_communi_0_emails" name="x_529039_communi_0_emails" sys_domain="global" view="0be0dbae2f113110e002d8ddf699b6d6">0fe0dbae2f113110e002d8ddf699b6da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-18 21:13:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>x_529039_communi_0_emails</caption>
+            <header>false</header>
+            <name>x_529039_communi_0_emails</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-18 21:12:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0fe0dbae2f113110e002d8ddf699b6da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_529039_communi_0_emails</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+            <sys_update_name>sys_ui_section_0fe0dbae2f113110e002d8ddf699b6da</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-18 21:12:37</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Add Emails" name="Add_Emails">0be0dbae2f113110e002d8ddf699b6d6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</application>
+        <file_path/>
+        <instance_id>a24aa180dbcbb744f492c597059619d0</instance_id>
+        <instance_name>dev89785</instance_name>
+        <name>sys_ui_section_0fe0dbae2f113110e002d8ddf699b6da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="x_529039_communi_0_emails" section_id="0fe0dbae2f113110e002d8ddf699b6da" sys_domain="global" table="x_529039_communi_0_emails" version="3" view="Add_Emails"><sys_ui_element action="INSERT_OR_UPDATE"><element>email_adress</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-18 21:13:15</sys_created_on><sys_id>98119fae2f113110e002d8ddf699b698</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_529039_communi_0_emails" display_value="x_529039_communi_0_emails" name="x_529039_communi_0_emails" sys_domain="global" view="0be0dbae2f113110e002d8ddf699b6d6">0fe0dbae2f113110e002d8ddf699b6da</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-18 21:13:15</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>x_529039_communi_0_emails</caption><header>false</header><name>x_529039_communi_0_emails</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-18 21:12:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0fe0dbae2f113110e002d8ddf699b6da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_529039_communi_0_emails</sys_name><sys_overrides/><sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package><sys_policy/><sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope><sys_update_name>sys_ui_section_0fe0dbae2f113110e002d8ddf699b6da</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-18 21:12:37</sys_updated_on><sys_user/><title>false</title><view display_value="Add Emails" name="Add_Emails">0be0dbae2f113110e002d8ddf699b6d6</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>694540285</payload_hash>
+        <record_name>Emails</record_name>
+        <reverted_from/>
+        <source>c47a4fa62f113110e002d8ddf699b662</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-18 21:13:15</sys_created_on>
+        <sys_id>1c119fae2f113110e002d8ddf699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18aaa23eb400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-18 21:13:15</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>d0119fae73113110064a02283a85b09a</update_guid>
+        <update_guid_history>d0119fae73113110064a02283a85b09a:694540285,c7e0dbaebd1131109c55433ed1da82dd:1884649825</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 20:31:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>30197342f7ac41a29e8db9419d94bdc4</sys_id>
+        <sys_metadata>0fe0dbae2f113110e002d8ddf699b6da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_529039_communi_0_emails</sys_name>
+        <sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package>
+        <sys_parent display_value="">601e47ea2f113110e002d8ddf699b6ed</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+        <sys_scope_delete display_value="">943e3b3bc12047f099979c80212e5100</sys_scope_delete>
+        <sys_update_name>sys_ui_section_0fe0dbae2f113110e002d8ddf699b6da</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_0fe0dbae2f113110e002d8ddf699b6da">1c119fae2f113110e002d8ddf699b69a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 20:31:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

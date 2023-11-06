@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-18 21:40:55</sys_created_on>
+        <sys_id>a5675f662f513110e002d8ddf699b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_529039_communi_0_assigned_code.x_529039_communi_0.assigned_code_user</sys_name>
+        <sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+        <sys_security_acl display_value="x_529039_communi_0_assigned_code">51675f662f513110e002d8ddf699b6bc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a5675f662f513110e002d8ddf699b6bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-18 21:40:55</sys_updated_on>
+        <sys_user_role display_value="x_529039_communi_0.assigned_code_user" name="x_529039_communi_0.assigned_code_user">996757622f513110e002d8ddf699b668</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

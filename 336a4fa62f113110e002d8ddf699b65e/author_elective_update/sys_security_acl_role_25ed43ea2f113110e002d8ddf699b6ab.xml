@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-18 20:59:25</sys_created_on>
+        <sys_id>25ed43ea2f113110e002d8ddf699b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_529039_communi_0_unique_code_cc_t_shirt_code.x_529039_communi_0.admin</sys_name>
+        <sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+        <sys_security_acl display_value="x_529039_communi_0_unique_code_cc_t_shirt_code">21ed43ea2f113110e002d8ddf699b6a7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_25ed43ea2f113110e002d8ddf699b6ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-18 20:59:25</sys_updated_on>
+        <sys_user_role display_value="x_529039_communi_0.admin" name="x_529039_communi_0.admin">987a4fa62f113110e002d8ddf699b666</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</application>
+        <file_path/>
+        <instance_id>a24aa180dbcbb744f492c597059619d0</instance_id>
+        <instance_name>dev89785</instance_name>
+        <name>sys_security_acl_role_25ed43ea2f113110e002d8ddf699b6ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-18 20:59:25</sys_created_on><sys_id>25ed43ea2f113110e002d8ddf699b6ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_529039_communi_0_unique_code_cc_t_shirt_code.x_529039_communi_0.admin</sys_name><sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package><sys_policy/><sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope><sys_security_acl display_value="x_529039_communi_0_unique_code_cc_t_shirt_code">21ed43ea2f113110e002d8ddf699b6a7</sys_security_acl><sys_update_name>sys_security_acl_role_25ed43ea2f113110e002d8ddf699b6ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-18 20:59:25</sys_updated_on><sys_user_role display_value="x_529039_communi_0.admin" name="x_529039_communi_0.admin">987a4fa62f113110e002d8ddf699b666</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-699541413</payload_hash>
+        <record_name>x_529039_communi_0_unique_code_cc_t_shirt_code.x_529039_communi_0.admin</record_name>
+        <reverted_from/>
+        <source>c47a4fa62f113110e002d8ddf699b662</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-18 20:59:25</sys_created_on>
+        <sys_id>e1ed43ea2f113110e002d8ddf699b6ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18aaa1740250000002</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-18 20:59:25</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>29ed43ea4611311098430943b98099b9</update_guid>
+        <update_guid_history>29ed43ea4611311098430943b98099b9:-699541413</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_529039_communi_0_unique_code_cc_t_shirt_code.x_529039_communi_0.admin">ac8a6a802f717110e002d8ddf699b68e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 20:31:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>13276068ddad483b8595a0750d347d81</sys_id>
+        <sys_metadata>25ed43ea2f113110e002d8ddf699b6ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_529039_communi_0_unique_code_cc_t_shirt_code.x_529039_communi_0.admin</sys_name>
+        <sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package>
+        <sys_parent display_value="">21ed43ea2f113110e002d8ddf699b6a7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+        <sys_scope_delete display_value="">943e3b3bc12047f099979c80212e5100</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_25ed43ea2f113110e002d8ddf699b6ab</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_25ed43ea2f113110e002d8ddf699b6ab">e1ed43ea2f113110e002d8ddf699b6ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 20:31:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

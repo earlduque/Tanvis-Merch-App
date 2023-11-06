@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=safari,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>send codes via email</description>
+        <internal_name>send_new_email</internal_name>
+        <label_cache>[{"name":"08723594-cf12-4852-8b57-c4aa14d7bf00.Records","label":"1 - Look Up Records➛Assigned Code Records","reference":"x_529039_communi_0_assigned_code","reference_display":"Assigned Code","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9d681db8-a836-4e97-832a-0c3ec604f1bd.item","label":"2 - For Each➛Assigned Code Record","reference":"x_529039_communi_0_assigned_code","reference_display":"Assigned Code","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Send New Email</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:14:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81c13bbe2f557110e002d8ddf699b680</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Send New Email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+        <sys_update_name>sys_hub_flow_81c13bbe2f557110e002d8ddf699b680</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:22:28</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_variable_value action="DELETE" query="document_key=81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=81c13bbe2f557110e002d8ddf699b680^sys_idNOT IN8c93f3722f957110e002d8ddf699b6b5"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Send New Email">81c13bbe2f557110e002d8ddf699b680</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:22:27</sys_created_on>
+        <sys_id>8c93f3722f957110e002d8ddf699b6b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:22:27</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=8c93f3722f957110e002d8ddf699b6b5"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>8c93f3722f957110e002d8ddf699b6b5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:22:27</sys_created_on>
+        <sys_id>0893f3722f957110e002d8ddf699b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:22:27</sys_updated_on>
+        <value>2023-09-17 02:05:00</value>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=8c93f3722f957110e002d8ddf699b6b5"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=81c13bbe2f557110e002d8ddf699b680^sys_idNOT IN85c13bbe2f557110e002d8ddf699b682"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>81c13bbe2f557110e002d8ddf699b680</id>
+        <name>Send New Email</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:14:36</sys_created_on>
+        <sys_id>85c13bbe2f557110e002d8ddf699b682</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:14:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=85c13bbe2f557110e002d8ddf699b682"/>
+    <sys_hub_flow_input action="DELETE" query="model=81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_hub_flow_output action="DELETE" query="model=81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_hub_action_instance action="DELETE" query="flow=81c13bbe2f557110e002d8ddf699b680^sys_idNOT IN0c93f3722f957110e002d8ddf699b6ee,c893f3722f957110e002d8ddf699b6be"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Send New Email">81c13bbe2f557110e002d8ddf699b680</flow>
+        <order>3</order>
+        <parent_ui_id>9d681db8-a836-4e97-832a-0c3ec604f1bd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:22:27</sys_created_on>
+        <sys_id>0c93f3722f957110e002d8ddf699b6ee</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:22:27</sys_updated_on>
+        <ui_id>4ce9e78c-1c0d-4b6e-9893-46be581067f3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=0c93f3722f957110e002d8ddf699b6ee"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0c93f3722f957110e002d8ddf699b6ee</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:22:27</sys_created_on>
+        <sys_id>8c93f3722f957110e002d8ddf699b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:22:27</sys_updated_on>
+        <value>x_529039_communi_0_assigned_code</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0c93f3722f957110e002d8ddf699b6ee</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:22:27</sys_created_on>
+        <sys_id>c893f3722f957110e002d8ddf699b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:22:27</sys_updated_on>
+        <value>cd139fee2f113110e002d8ddf699b667</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=0c93f3722f957110e002d8ddf699b6ee"/>
+    <sys_element_mapping action="DELETE">
+        <field>notification</field>
+        <id>0c93f3722f957110e002d8ddf699b6ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:22:27</sys_created_on>
+        <sys_id>c093f3722f957110e002d8ddf699b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:22:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>0c93f3722f957110e002d8ddf699b6ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:22:27</sys_created_on>
+        <sys_id>4893f3722f957110e002d8ddf699b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:22:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{9d681db8-a836-4e97-832a-0c3ec604f1bd.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>0c93f3722f957110e002d8ddf699b6ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:22:27</sys_created_on>
+        <sys_id>8493f3722f957110e002d8ddf699b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:22:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=0c93f3722f957110e002d8ddf699b6ee"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=0c93f3722f957110e002d8ddf699b6ee"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Send New Email">81c13bbe2f557110e002d8ddf699b680</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:22:27</sys_created_on>
+        <sys_id>c893f3722f957110e002d8ddf699b6be</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:22:27</sys_updated_on>
+        <ui_id>08723594-cf12-4852-8b57-c4aa14d7bf00</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=c893f3722f957110e002d8ddf699b6be"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c893f3722f957110e002d8ddf699b6be</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:22:27</sys_created_on>
+        <sys_id>8093f3722f957110e002d8ddf699b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:22:27</sys_updated_on>
+        <value>x_529039_communi_0_assigned_code</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=c893f3722f957110e002d8ddf699b6be"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=c893f3722f957110e002d8ddf699b6be"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=c893f3722f957110e002d8ddf699b6be"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=81c13bbe2f557110e002d8ddf699b680^sys_idNOT INc093f3722f957110e002d8ddf699b6c2"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">0893f3722f957110e002d8ddf699b6c1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Send New Email">81c13bbe2f557110e002d8ddf699b680</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:22:27</sys_created_on>
+        <sys_id>c093f3722f957110e002d8ddf699b6c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:22:27</sys_updated_on>
+        <ui_id>9d681db8-a836-4e97-832a-0c3ec604f1bd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=c093f3722f957110e002d8ddf699b6c2"/>
+    <sys_element_mapping action="DELETE" query="id=c093f3722f957110e002d8ddf699b6c2"/>
+    <sys_element_mapping action="DELETE">
+        <field>items</field>
+        <id>c093f3722f957110e002d8ddf699b6c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:22:27</sys_created_on>
+        <sys_id>c493f3722f957110e002d8ddf699b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:22:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{08723594-cf12-4852-8b57-c4aa14d7bf00.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=c093f3722f957110e002d8ddf699b6c2"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=c093f3722f957110e002d8ddf699b6c2"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_hub_flow_variable action="DELETE" query="model=81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=81c13bbe2f557110e002d8ddf699b680"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</application>
+        <file_path/>
+        <instance_id>a24aa180dbcbb744f492c597059619d0</instance_id>
+        <instance_name>dev89785</instance_name>
+        <name>sys_hub_flow_81c13bbe2f557110e002d8ddf699b680</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes>browserActivatedIn=safari,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from><copied_from_name>FlowTemplate_Empty</copied_from_name><description>send codes via email</description><internal_name>send_new_email</internal_name><label_cache>[{"name":"08723594-cf12-4852-8b57-c4aa14d7bf00.Records","label":"1 - Look Up Records➛Assigned Code Records","reference":"x_529039_communi_0_assigned_code","reference_display":"Assigned Code","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9d681db8-a836-4e97-832a-0c3ec604f1bd.item","label":"2 - For Each➛Assigned Code Record","reference":"x_529039_communi_0_assigned_code","reference_display":"Assigned Code","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache><latest_snapshot/><master_snapshot/><name>Send New Email</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-19 18:14:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>81c13bbe2f557110e002d8ddf699b680</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Send New Email</sys_name><sys_overrides/><sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package><sys_policy/><sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope><sys_update_name>sys_hub_flow_81c13bbe2f557110e002d8ddf699b680</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-19 18:22:28</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=81c13bbe2f557110e002d8ddf699b680"/><sys_variable_value action="delete_multiple" query="document_key=81c13bbe2f557110e002d8ddf699b680"/><sys_hub_trigger_instance action="delete_multiple" query="flow=81c13bbe2f557110e002d8ddf699b680^sys_idNOT IN8c93f3722f957110e002d8ddf699b6b5"/><sys_hub_trigger_instance action="INSERT_OR_UPDATE"><comment/><display_text/><flow display_value="Send New Email">81c13bbe2f557110e002d8ddf699b680</flow><name>Run Once</name><remote_sys_id/><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-19 18:22:27</sys_created_on><sys_id>8c93f3722f957110e002d8ddf699b6b5</sys_id><sys_mod_count>1</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-19 18:22:27</sys_updated_on><trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition><trigger_inputs/><trigger_outputs/><trigger_type>run_once</trigger_type></sys_hub_trigger_instance><sys_variable_value action="delete_multiple" query="document_key=8c93f3722f957110e002d8ddf699b6b5"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_trigger_instance</document><document_key>8c93f3722f957110e002d8ddf699b6b5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-19 18:22:27</sys_created_on><sys_id>0893f3722f957110e002d8ddf699b6b7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-19 18:22:27</sys_updated_on><value>2023-09-17 02:05:00</value><variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=8c93f3722f957110e002d8ddf699b6b5"/><sys_hub_flow_stage action="delete_multiple" query="flow=81c13bbe2f557110e002d8ddf699b680"/><sys_flow_cat_variable_model action="delete_multiple" query="id=81c13bbe2f557110e002d8ddf699b680^sys_idNOT IN85c13bbe2f557110e002d8ddf699b682"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>81c13bbe2f557110e002d8ddf699b680</id><name>Send New Email</name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-19 18:14:36</sys_created_on><sys_id>85c13bbe2f557110e002d8ddf699b682</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-19 18:14:36</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=85c13bbe2f557110e002d8ddf699b682"/><sys_hub_flow_input action="delete_multiple" query="model=81c13bbe2f557110e002d8ddf699b680"/><sys_hub_flow_output action="delete_multiple" query="model=81c13bbe2f557110e002d8ddf699b680"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=81c13bbe2f557110e002d8ddf699b680"/><sys_hub_action_instance action="delete_multiple" query="flow=81c13bbe2f557110e002d8ddf699b680^sys_idNOT IN0c93f3722f957110e002d8ddf699b6ee,c893f3722f957110e002d8ddf699b6be"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type><action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent><attributes/><comment/><compiled_snapshot/><display_text/><flow display_value="Send New Email">81c13bbe2f557110e002d8ddf699b680</flow><order>3</order><parent_ui_id>9d681db8-a836-4e97-832a-0c3ec604f1bd</parent_ui_id><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-19 18:22:27</sys_created_on><sys_id>0c93f3722f957110e002d8ddf699b6ee</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-19 18:22:27</sys_updated_on><ui_id>4ce9e78c-1c0d-4b6e-9893-46be581067f3</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=0c93f3722f957110e002d8ddf699b6ee"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>0c93f3722f957110e002d8ddf699b6ee</document_key><order>2</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-19 18:22:27</sys_created_on><sys_id>8c93f3722f957110e002d8ddf699b6f0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-19 18:22:27</sys_updated_on><value>x_529039_communi_0_assigned_code</value><variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>0c93f3722f957110e002d8ddf699b6ee</document_key><order>3</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-19 18:22:27</sys_created_on><sys_id>c893f3722f957110e002d8ddf699b6f0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-19 18:22:27</sys_updated_on><value>cd139fee2f113110e002d8ddf699b667</value><variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=0c93f3722f957110e002d8ddf699b6ee"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>notification</field><id>0c93f3722f957110e002d8ddf699b6ee</id><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-19 18:22:27</sys_created_on><sys_id>c093f3722f957110e002d8ddf699b6f0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-19 18:22:27</sys_updated_on><table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>record</field><id>0c93f3722f957110e002d8ddf699b6ee</id><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-19 18:22:27</sys_created_on><sys_id>4893f3722f957110e002d8ddf699b6f0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-19 18:22:27</sys_updated_on><table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table><value>{{9d681db8-a836-4e97-832a-0c3ec604f1bd.item}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>table_name</field><id>0c93f3722f957110e002d8ddf699b6ee</id><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-19 18:22:27</sys_created_on><sys_id>8493f3722f957110e002d8ddf699b6f0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-19 18:22:27</sys_updated_on><table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table><value/></sys_element_mapping><sys_hub_input_scripts action="delete_multiple" query="instance=0c93f3722f957110e002d8ddf699b6ee"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=0c93f3722f957110e002d8ddf699b6ee"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type><action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent><attributes/><comment/><compiled_snapshot/><display_text/><flow display_value="Send New Email">81c13bbe2f557110e002d8ddf699b680</flow><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-19 18:22:27</sys_created_on><sys_id>c893f3722f957110e002d8ddf699b6be</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-19 18:22:27</sys_updated_on><ui_id>08723594-cf12-4852-8b57-c4aa14d7bf00</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=c893f3722f957110e002d8ddf699b6be"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>c893f3722f957110e002d8ddf699b6be</document_key><order>0</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-19 18:22:27</sys_created_on><sys_id>8093f3722f957110e002d8ddf699b6c1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-19 18:22:27</sys_updated_on><value>x_529039_communi_0_assigned_code</value><variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=c893f3722f957110e002d8ddf699b6be"/><sys_hub_input_scripts action="delete_multiple" query="instance=c893f3722f957110e002d8ddf699b6be"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=c893f3722f957110e002d8ddf699b6be"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=81c13bbe2f557110e002d8ddf699b680"/><sys_hub_flow_logic action="delete_multiple" query="flow=81c13bbe2f557110e002d8ddf699b680^sys_idNOT INc093f3722f957110e002d8ddf699b6c2"/><sys_hub_flow_logic action="INSERT_OR_UPDATE"><attributes/><block display_value="">0893f3722f957110e002d8ddf699b6c1</block><comment/><connected_to/><decision_table/><decision_table_inputs/><display_text/><extended_inputs/><flow display_value="Send New Email">81c13bbe2f557110e002d8ddf699b680</flow><flow_variable/><flow_variables_assigned/><inputs/><inputs/><logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition><order>2</order><outputs_assigned/><outputs_to_assign/><parent_ui_id/><sys_class_name>sys_hub_flow_logic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-19 18:22:27</sys_created_on><sys_id>c093f3722f957110e002d8ddf699b6c2</sys_id><sys_mod_count>1</sys_mod_count><sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-19 18:22:27</sys_updated_on><ui_id>9d681db8-a836-4e97-832a-0c3ec604f1bd</ui_id><workflow_inputs/><workflow_reference/></sys_hub_flow_logic><sys_variable_value action="delete_multiple" query="document_key=c093f3722f957110e002d8ddf699b6c2"/><sys_element_mapping action="delete_multiple" query="id=c093f3722f957110e002d8ddf699b6c2"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>items</field><id>c093f3722f957110e002d8ddf699b6c2</id><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-19 18:22:27</sys_created_on><sys_id>c493f3722f957110e002d8ddf699b6c5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-19 18:22:27</sys_updated_on><table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table><value>{{08723594-cf12-4852-8b57-c4aa14d7bf00.Records}}</value></sys_element_mapping><sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c093f3722f957110e002d8ddf699b6c2"/><sys_hub_input_scripts action="delete_multiple" query="instance=c093f3722f957110e002d8ddf699b6c2"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=81c13bbe2f557110e002d8ddf699b680"/><sys_hub_flow_variable action="delete_multiple" query="model=81c13bbe2f557110e002d8ddf699b680"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_81c13bbe2f557110e002d8ddf699b680"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_81c13bbe2f557110e002d8ddf699b680"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_81c13bbe2f557110e002d8ddf699b680"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_81c13bbe2f557110e002d8ddf699b680"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=81c13bbe2f557110e002d8ddf699b680"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=81c13bbe2f557110e002d8ddf699b680"/></record_update>]]></payload>
+        <payload_hash>-1262424178</payload_hash>
+        <record_name>Send New Email</record_name>
+        <reverted_from/>
+        <source>c47a4fa62f113110e002d8ddf699b662</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:22:29</sys_created_on>
+        <sys_id>e89337722f957110e002d8ddf699b638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18aaeadef4d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 18:22:29</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>e09337721d95711051e36767217bb938</update_guid>
+        <update_guid_history>e09337721d95711051e36767217bb938:-1262424178,18933772d59571109dd9163a99fb6d0a:1505870024,5dc13bbe3a557110988ef4a562ec4f88:657912868</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 20:32:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>25efc495e91e415a99ec56c30792b1a4</sys_id>
+        <sys_metadata>81c13bbe2f557110e002d8ddf699b680</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send New Email</sys_name>
+        <sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+        <sys_scope_delete display_value="">943e3b3bc12047f099979c80212e5100</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_81c13bbe2f557110e002d8ddf699b680</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_81c13bbe2f557110e002d8ddf699b680">e89337722f957110e002d8ddf699b638</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 20:32:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

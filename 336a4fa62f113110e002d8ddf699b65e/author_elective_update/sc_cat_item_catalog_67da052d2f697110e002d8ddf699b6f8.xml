@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Add Name(s)">6b8849692f697110e002d8ddf699b675</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-27 19:08:42</sys_created_on>
+        <sys_id>67da052d2f697110e002d8ddf699b6f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Add Name(s)</sys_name>
+        <sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_67da052d2f697110e002d8ddf699b6f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-27 19:08:42</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</application>
+        <file_path/>
+        <instance_id>a24aa180dbcbb744f492c597059619d0</instance_id>
+        <instance_name>dev89785</instance_name>
+        <name>sc_cat_item_catalog_67da052d2f697110e002d8ddf699b6f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Add Name(s)">6b8849692f697110e002d8ddf699b675</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-27 19:08:42</sys_created_on><sys_id>67da052d2f697110e002d8ddf699b6f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Add Name(s)</sys_name><sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package><sys_policy/><sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope><sys_update_name>sc_cat_item_catalog_67da052d2f697110e002d8ddf699b6f8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-27 19:08:42</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-810375838</payload_hash>
+        <record_name>Service Catalog.Add Name(s)</record_name>
+        <reverted_from/>
+        <source>c47a4fa62f113110e002d8ddf699b662</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-27 19:08:42</sys_created_on>
+        <sys_id>e3da052d2f697110e002d8ddf699b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ad80b1fff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-27 19:08:42</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>67da052d4f697110575894da384733fa</update_guid>
+        <update_guid_history>67da052d4f697110575894da384733fa:-810375838</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Add Name(s)">7efac52d2f697110e002d8ddf699b69a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-27 19:09:11</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>724b97e9fc2447f2857cae97e6386f84</sys_id>
+        <sys_metadata>67da052d2f697110e002d8ddf699b6f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Add Name(s)</sys_name>
+        <sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package>
+        <sys_parent display_value="">6b8849692f697110e002d8ddf699b675</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+        <sys_scope_delete display_value="">943e3b3bc12047f099979c80212e5100</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_67da052d2f697110e002d8ddf699b6f8</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_67da052d2f697110e002d8ddf699b6f8">e3da052d2f697110e002d8ddf699b6fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-27 19:09:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

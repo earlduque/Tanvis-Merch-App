@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_first_name" label="First Name" language="en" table="x_529039_communi_0_import_assignedcode">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_first_name</element>
+            <help/>
+            <hint/>
+            <label>First Name</label>
+            <language>en</language>
+            <name>x_529039_communi_0_import_assignedcode</name>
+            <plural>First Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-06 21:04:48</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>First Name</sys_name>
+            <sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+            <sys_update_name>sys_documentation_x_529039_communi_0_import_assignedcode_u_first_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-06 21:04:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="Which Store are you selecting?">62c801a92f697110e002d8ddf699b60f</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-27 19:08:12</sys_created_on>
+        <sys_id>64ca812d2f697110e002d8ddf699b642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hackathon Store</sys_name>
+        <sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
+        <sys_update_name>question_choice_64ca812d2f697110e002d8ddf699b642</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-27 19:08:12</sys_updated_on>
+        <text>Hackathon Store</text>
+        <value>hackathon_store</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=64ca812d2f697110e002d8ddf699b642"/>
+</record_update>
