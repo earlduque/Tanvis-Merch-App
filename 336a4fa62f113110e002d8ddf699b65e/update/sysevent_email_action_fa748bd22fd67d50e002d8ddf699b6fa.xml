@@ -34,12 +34,40 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello: ${first_name}</p>
-<p>Thank you for completing the challenge! Here is your Unique Code: ${unique_code}</p>
-<p>Just follow these steps:</p>
-<p>1. Website</p>
-<p>2. Add in your info</p>
-<p>3. Order Unique Code:</p>]]></message_html>
+        <message_html><![CDATA[<p><span style="font-size: 10pt;">Hi ${first_name},</span></p>
+<div>
+<p><span style="font-size: 10pt;"><span xml:lang="EN-US" data-contrast="none">Your participation in The Devvies 2024 App of the Year Contest has us all fired up! To show our thanks, we're sending you some swag.&nbsp;</span>&nbsp;</span></p>
+</div>
+<div>
+<p><span style="font-size: 10pt;"><span xml:lang="EN-US" data-contrast="none">Here's what you need to do:</span><span xml:lang="EN-US" data-contrast="none">&nbsp;</span>&nbsp;</span></p>
+</div>
+<div>
+<ol style="list-style-position: inside;">
+<li style="font-size: 10pt;"><span style="font-size: 10pt;">Head over to our exclusive <a href="https://snusdev-events3.promob2b.com/" target="_blank" rel="noopener">The Devvies Swag Store</a></span></li>
+<li style="font-size: 10pt;"><span style="font-size: 10pt;"><span style="color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28))))); background-color: rgb(var(--sn-tinymce_content-background,var(--now-form-field--background-color,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255)))));">Pick out your favorite item and add it to your cart (You can choose 1 item)&nbsp;</span><span style="color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));" data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:1,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559738&quot;:213,&quot;335559739&quot;:213,&quot;335559740&quot;:240}"> </span></span></li>
+<li style="font-size: 10pt;"><span style="font-size: 10pt;"><span style="color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28))))); background-color: rgb(var(--sn-tinymce_content-background,var(--now-form-field--background-color,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255)))));">Hit checkout and fill out your details&nbsp;</span><span style="color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));" data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:1,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559738&quot;:213,&quot;335559739&quot;:213,&quot;335559740&quot;:240}"> </span></span></li>
+<li style="font-size: 10pt;"><span style="color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28))))); font-size: 10pt; background-color: rgb(var(--sn-tinymce_content-background,var(--now-form-field--background-color,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255)))));">When you get to checkout, enter this unique code: <strong>${unique_code}</strong></span></li>
+</ol>
+</div>
+<div>
+<p><span style="font-size: 10pt;"><span xml:lang="EN-US" data-contrast="none">Then sit back and wait for your swag to roll in! (Please note: It might take a few weeks for your order to arrive, and if you're based outside the US, expect a wait of around 30 days.)&nbsp;</span>&nbsp;</span></p>
+</div>
+<div>
+<p><span style="font-size: 10pt;"><span xml:lang="EN-US" data-contrast="none">Keep in mind, your unique code is valid for a single item only.&nbsp;</span>&nbsp;</span></p>
+</div>
+<div>
+<p><span style="font-size: 10pt;"><span xml:lang="EN-US" data-contrast="none">Once you've got your swag, why not flaunt it? Share a snap on social media and let the world know you were part of The Devvies Contest this year. Don't forget to tag </span><strong><span xml:lang="EN-US" data-contrast="none">@ServiceNow</span></strong><span xml:lang="EN-US" data-contrast="none"> and use </span><strong><span xml:lang="EN-US" data-contrast="none">#TheDevvies</span></strong><span xml:lang="EN-US" data-contrast="none">.&nbsp;</span>&nbsp;</span></p>
+</div>
+<div>
+<p><span style="font-size: 10pt;"><span xml:lang="EN-US" data-contrast="none">Best,</span>&nbsp;</span></p>
+</div>
+<div>
+<p><span style="font-size: 10pt;"><span xml:lang="EN-US" data-contrast="none">The Devvies 2024 Team</span>&nbsp;</span></p>
+<p>&nbsp;</p>
+</div>
+<div>
+<p><span style="font-size: 10pt;"><span role="presentation"><img style="width: 480px; height: 270px;" src="https://dev89785.service-now.com/sys_attachment.do?sys_id=aa5786e52f26f990e002d8ddf699b6e7" /></span>&nbsp;</span></p>
+</div>]]></message_html>
         <message_list/>
         <message_text/>
         <name>The Devvies Email</name>
@@ -53,7 +81,7 @@
         <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Redeem your merch</subject>
+        <subject>It's Swag Time – Thanks For Entering The Devvies 2024!</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -61,15 +89,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fa748bd22fd67d50e002d8ddf699b6fa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>The Devvies Email</sys_name>
         <sys_overrides/>
         <sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
         <sys_update_name>sysevent_email_action_fa748bd22fd67d50e002d8ddf699b6fa</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-06 19:25:33</sys_updated_on>
+        <sys_updated_by>tanvi.gokhale</sys_updated_by>
+        <sys_updated_on>2023-11-16 17:14:22</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="AES app template email - Standard">f749cd1dc3670110a9f5e548fa40ddd3</template>
         <type>email</type>

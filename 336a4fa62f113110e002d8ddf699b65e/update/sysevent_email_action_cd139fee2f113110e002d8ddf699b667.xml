@@ -48,7 +48,7 @@
 <p>The ServiceNow Developer Meetup Program</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Test Merch Email</name>
+        <name>London Developer Meetup Email</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -67,15 +67,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cd139fee2f113110e002d8ddf699b667</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Test Merch Email</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>London Developer Meetup Email</sys_name>
         <sys_overrides/>
         <sys_package display_value="Community Merch Store Auto-Emailer" source="x_529039_communi_0">336a4fa62f113110e002d8ddf699b65e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Community Merch Store Auto-Emailer">336a4fa62f113110e002d8ddf699b65e</sys_scope>
         <sys_update_name>sysevent_email_action_cd139fee2f113110e002d8ddf699b667</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-06 19:36:09</sys_updated_on>
+        <sys_updated_by>tanvi.gokhale</sys_updated_by>
+        <sys_updated_on>2023-11-16 18:08:42</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="AES app template email - Standard">f749cd1dc3670110a9f5e548fa40ddd3</template>
         <type>email</type>
